@@ -1,6 +1,11 @@
 .guiVersion2 .button {
     background-color: #7e7e7f !important;
 }
+
+b {
+    font-weight: 700;
+}
+
 .guiVersion2 .button:hover {
     background-color: #626264 !important;
 }

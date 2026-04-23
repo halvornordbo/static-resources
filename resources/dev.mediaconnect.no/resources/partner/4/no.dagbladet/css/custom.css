@@ -2,6 +2,10 @@
   background-color: #f4f4f4;
 }
 
+b {
+  font-weight: 700;
+}
+
 .guiVersion2 .button  {
   background-color: black !important;
   cursor: pointer;

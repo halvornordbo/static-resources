@@ -192,7 +192,7 @@
         },
         "complaint-duplicateKeyError": {
             "text": {
-                "en_US": "It is not possible to register complaint on this issue. Contact Mediaconnect for support.",
+                "en_US": "It is not possible to register complaint on this issue. Contact Unite for support.",
                 "nb_NO": "Det er ikke mulig å registrere en klage på denne utgaven. Kontakt kundesenter for videre hjelp."
             }
         }

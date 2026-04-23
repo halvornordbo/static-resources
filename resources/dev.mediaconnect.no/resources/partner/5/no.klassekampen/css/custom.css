@@ -2,6 +2,10 @@
     background-color: #f4f4f4;
 }
 
+b {
+    font-weight: 700;
+}
+
 .socialLoginWide {
     width: fit-content;
     margin: 0 auto; /* This centers the element horizontally */
@@ -292,7 +296,7 @@ input:not(#j_username):focus {
     padding: 0 0;
 }
 
-/* custom klassekampen styles and colours */
+/* klassekampen custom styles and colours */
 .guiVersion2 a {
     color: #AD1409;
     text-decoration: none;
