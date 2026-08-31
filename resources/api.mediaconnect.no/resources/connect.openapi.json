@@ -20203,7 +20203,8 @@
               "required": [
                 "productSpecType",
                 "quantity",
-                "unitPrice"
+                "unitPrice",
+                "productToReplace"
               ],
               "type": "object",
               "properties": {
@@ -20268,6 +20269,10 @@
                 "allowAccessSeconds": {
                   "description": "After placing the order, the order will be processed in the backend system. This might take some time due to various error conditions and delays. The request may contain a product, a category type, and a number of seconds the user will be granted temporary access to protected content. If a category type is specified, the temporary access can be restricted to orders on that category type.\n\nIf this is an issue order (i.e `productSpecType` is issue), the issue specified in `product` field on orderLine must exists for the given product code specified in `allowAccessProduct`.",
                   "type": "integer"
+                },
+                "productToReplace": {
+                  "type": "string",
+                  "description": "Specified product code that should be stopped and money transfered to newly started product when `productSpecType` is coupon "
                 },
                 "startInfo": {
                   "description": "Object containing one of `startDate` or `startIssue`. Not both.",
